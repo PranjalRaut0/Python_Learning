@@ -26,3 +26,6 @@ p=reg.predict(d)
 d['prices']=p
 d.to_csv("prediction.csv",index=False)
 
+
+#End of single varibale
+
